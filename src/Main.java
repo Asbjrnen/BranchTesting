@@ -1,5 +1,12 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+
+        dog.makeSound(); //output "bark"
+        cat.makeSound(); //output "meow"
+
+
     }
 }
