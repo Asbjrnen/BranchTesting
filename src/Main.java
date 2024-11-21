@@ -18,5 +18,8 @@ public class Main {
         cat.showMood(false);
 
         System.out.println("Hello World!");
+
+        dog.jump(10);
+        cat.jump(10);
     }
 }
