@@ -7,6 +7,9 @@ public class Main {
         dog.makeSound(); //output "bark"
         cat.makeSound(); //output "meow"
 
+        dog.eat("Rabbit");
+        cat.eat("Fish");
+
 
     }
 }
